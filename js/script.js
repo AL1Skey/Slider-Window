@@ -44,8 +44,8 @@ const slide = (direction) => {
         counter--;
         //IF COUNTER LESS THAN DEFAULT
         if(counter < 0){
-            //RESET COUNTER
-            counter=0;
+            //RAISE COUNTER TO MAX
+            counter= length - 1;
         }
     }
 
